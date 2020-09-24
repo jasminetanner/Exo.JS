@@ -1,0 +1,60 @@
+ /**
+ * Exercice 1
+ */
+
+    var person;
+    person = prompt('Entrez votre age : ');
+
+    if(person <= 17) {
+        alert("Vous ne pouvez pas entrez vous n’êtes pas majeur vous avez " + person);
+    } else if(person >= 42) {
+        alert("Vous devenez le patron de la boite !");
+    } else {
+        alert("Vous pouvez entrer vous êtes majeur vous avez " + person);
+    };
+
+ /**
+ * Exercice 2
+ */
+
+ var temp = Math.floor((Math.random() * 30) + 0);
+
+    if(temp <= 10) {
+        alert("Cool !");
+    } else if(temp <= 20) {
+        alert("Tepid !");
+    } else {
+        alert("Warm !");
+    };
+
+ console.log(temp);
+
+ /**
+ * Exercice 3
+ */
+
+ var day;
+ switch (new Date().getDay()) {
+    case 0:
+     day = "Sunday";
+     break;
+    case 1:
+     day = "Monday";
+     break;
+    case 2:
+     day = "Tuesday";
+     break;
+    case 3:
+     day = "Wednesday";
+     break;
+    case 4:
+     day = "Thursday";
+     break;
+    case 5:
+     day = "Friday";
+     break;
+    case  6:
+     day = "Saturday";
+}
+
+console.log(day);
