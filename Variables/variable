@@ -1,0 +1,39 @@
+'use strict';
+
+/**
+ * Exercice 1
+ */
+
+ //My Digital School Forever
+
+/**
+ * Exercice 2
+ */
+
+/**
+*My Digital School Forever
+*Every Day
+*/
+
+/**
+ * Exercice 3
+ */
+
+var mds = '42';					//STRING
+var mds = 42;					//NUMBER
+var mds = 42.00;				//FLOAT
+var mds = true;					//BOOLEAN
+var mds = {                     //OBJECT
+    'float': float,
+};					
+var mds = [42, 42, 42];			//ARRAY
+var mds = Date(2042, 42, 42);	//DATE
+
+var mds = null;
+var mds = undefined;
+
+/**
+ * Exercice 4 
+ */
+
+var my42count = 'quarante-deux';
