@@ -1,0 +1,23 @@
+/**
+ * Exercice 1
+ */
+
+/*var myPutStr = function myPutStr(value) {
+    if(typeof value === 'string') {
+        return "This is text";
+    } if(typeof value === 'number') {
+        return "Why not 42 ?";
+    }
+};
+
+myPutStr(5);*/
+
+/**
+ * Exercice 2
+ */
+
+var computeSurfaceM2 = function computeSurfaceM2(long, large) {
+    return (long * large + "m2");
+}
+
+computeSurfaceM2(5,6);
