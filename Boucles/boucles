@@ -1,0 +1,28 @@
+ /**
+ * Exercice 1
+ */
+
+
+/*var mult = [1, 2, 3, 4, 5, 8];
+
+for(var key in mult) {
+    for(var i = 0; i <= 10; i++) {
+        var result = mult[key] * i;
+        console.log(result);
+    }
+}*/
+
+ /**
+ * Exercice 2
+ */
+
+var mult5 = [5];
+
+   for(var key in mult5){
+       for(var i = 0; i<=10; i++){
+           var result = mult5[key] * i;
+            console.log(i, "x", mult5,"=", result);
+            var resultatTable = document.write(i, "x", mult5, "=", result);
+       }
+
+   }
